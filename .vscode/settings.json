@@ -1,0 +1,19 @@
+{
+    "editor.formatOnSave": false,
+    "editor.tabSize": 4,
+    "editor.formatOnPaste": true,
+    "search.exclude": {
+        "**/.gitignore": true,
+        "**/node_modules": true,
+        "**/.idea": true,
+        "**/.vscode": true,
+        "**/build": true,
+        "**/dist": true,
+        "**/tmp": true,
+        "**/yarn.lock": true
+    },
+    "files.insertFinalNewline": false,
+    "files.trimFinalNewlines": false,
+    "html.format.endWithNewline": false,
+    "prettier.tabWidth": 4
+}

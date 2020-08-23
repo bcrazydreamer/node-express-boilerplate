@@ -1,0 +1,38 @@
+{
+    "name": "bcd-server",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "start": "node ./bin/www > ./logs/express.log 2>&1 &",
+        "local": "DEBUG=dev node ./bin/www",
+        "lint": "eslint --ignore-path=.eslintignore --ext .js, .",
+        "fix-lint": "eslint --fix --ignore-pat  h=.eslintignore --ext .js, ."
+    },
+    "dependencies": {
+        "app-root-path": "^3.0.0",
+        "await-to-js": "^2.1.1",
+        "bcryptjs": "^2.4.3",
+        "compression": "^1.7.4",
+        "cookie-parser": "^1.4.5",
+        "debug": "^2.6.9",
+        "dotenv": "^8.2.0",
+        "ejs": "^2.6.2",
+        "express": "^4.16.4",
+        "helmet": "^3.21.3",
+        "html-compressor": "^1.0.1",
+        "http-errors": "^1.8.0",
+        "jsonwebtoken": "^8.5.1",
+        "lodash": "^4.17.20",
+        "mongoose": "^5.9.5",
+        "morgan": "^1.9.1",
+        "request-ip": "^2.1.3",
+        "winston": "^3.2.1"
+    },
+    "devDependencies": {
+        "eslint": "^7.7.0",
+        "eslint-config-airbnb-base": "^14.2.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-plugin-import": "^2.22.0",
+        "eslint-plugin-prettier": "^3.1.4"
+    }
+}
